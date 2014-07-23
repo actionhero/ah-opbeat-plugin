@@ -4,7 +4,7 @@ exports.opbeat = function(api, next){
 
   api.opbeat.configure = function(){
     var opbeatPrototype = require('opbeat');
-    api.opbeat.client   = opbeat.createClient(api.config.opbeat);
+    api.opbeat.client   = opbeatPrototype.createClient(api.config.opbeat);
 
     api.opbeat.client.on('logged', function (url) {
       api.log('Logged Error to OpBeat @ ' + url, 'error');
