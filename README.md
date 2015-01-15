@@ -1,3 +1,5 @@
+# THIS PROJECT HAS BEEN DELETED FROM NPM.
+
 ## notes
 - be sure to enable the plugin within actionhero (`config/api.js`)
 - you will need to add the opbeat package (`npm install opbeat --save`) to your package.json
