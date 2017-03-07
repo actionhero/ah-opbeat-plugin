@@ -1,5 +1,7 @@
 # THIS PROJECT HAS BEEN DELETED FROM NPM.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/actionhero/ah-opbeat-plugin.svg)](https://greenkeeper.io/)
+
 ## notes
 - be sure to enable the plugin within actionhero (`config/api.js`)
 - you will need to add the opbeat package (`npm install opbeat --save`) to your package.json
